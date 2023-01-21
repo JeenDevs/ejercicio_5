@@ -1,0 +1,44 @@
+
+body{
+    background-color:gray;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/imagenes/fondoo.jpg);
+    background-size: cover;
+}
+#barra {
+    flex: 0 1 auto;
+    color: white;
+    background-color:#4b4c4d;
+    position:fixed;
+}
+#tit{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#ti{
+    color: #008CBA;
+}
+#conceptos{
+    width: 100vw;
+    height: calc(100vh - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+}
+.det1, .det2{
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 3px rgba(48, 83, 164 );
+    background: white; 
+    border-radius: 10%;
+    background-color: rgb(212, 212, 208);
+}

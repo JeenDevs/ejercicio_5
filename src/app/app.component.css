@@ -1,0 +1,52 @@
+
+.contenedor-padre {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+
+h5{
+    color: white;
+    font-size: 10px;
+  }
+.barra {
+    flex: 0 1 auto;
+    color: white;
+    background-color:grey;
+}
+.contenido {
+    flex: 1 1 auto;
+    color: white;
+}
+.navegacion{
+    background-color: grey;
+    color: white;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+.lista{
+    color:white
+}
+.lista1{
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    height: 40px;
+    margin: 0 20px;
+
+}
+  .footer{
+    height: 50px;
+    position: absolute;
+    top: 91%;
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+    color: white;
+      
+  }
